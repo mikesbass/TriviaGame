@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <title>Jesus Trivia Game!!!!</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      </head>
+  <body>
+
+          <div class="jumbotron">
+            <h1">Jesus Trivia Game</h1>
+          </div>
+
+          <button id="start" class="btn btn-primary start">Start Game!!!</button>
+
+        <div class="container content">
+          <section class="data">
+            <div class="time">
+              <p class="counter"></p>
+            </div>
+              <form action="#">
+                <label id="question">1. Who is Jesus?</label> <br>
+                <input id="answers" type="radio" value="Son of God" name="Jesus"> Son of God <br>
+                <input id="answers" type="radio" value="Regular Man" name="Jesus"> Regular Man<br>
+                <input id="answers" type="radio" value="Sinner" name="Jesus"> Sinner<br>
+                <input id="answers" type="radio" value="Thief" name="Jesus"> Thief <br>
+
+              <hr>
+
+                <label id="question">2. What did Jesus do for us?</label> <br>
+                <input id="answers" type="radio" value="Preached" name="do"> Preached <br>
+                <input id="answers" type="radio" value="Lied" name="do"> Lied<br> 
+                <input id="answers" type="radio" value="Died" name="do"> Died<br>
+                <input id="answers" type="radio" value="Teached" name="do"> Teached <br>
+
+              <hr>
+
+                <label id="question">3. What happened on third day after his death?</label> <br>
+                <input id="answers" type="radio" value="Nothing" name="death"> Nothing <br>
+                <input id="answers" type="radio" value="He arose" name="death"> He arose<br> 
+                <input id="answers" type="radio" value="Body was stole" name="death"> Body was stole<br>
+                <input id="answers" type="radio" value="Conquered" name="death"> Conquered <br>
+
+              <hr>
+
+                <label id="question">4. Why did Jesus die for us?</label> <br>
+                <input id="answers" type="radio" value="Pay for our sins" name="sins"> Pay for our sins <br>
+                <input id="answers" type="radio" value="Rebelion" name="sins"> Rebelion<br> 
+                <input id="answers" type="radio" value="No reason" name="sins"> No reason<br>
+                <input id="answers" type="radio" value="Fake" name="sins"> Fake <br>
+
+              <hr>
+            
+                <label id="question">5. What is the one thing we must have to have to enter Heaven?</label> <br>
+                <input id="answers" type="radio" value="Help others" name="heaven"> Help others <br>
+                <input id="answers" type="radio" value="Do good" name="heaven"> Do good<br> 
+                <input id="answers" type="radio" value="Pay for it" name="heaven"> Pay for it<br>
+                <input id="answers" type="radio" value="Faith in Christ" name="heaven"> Faith in Christ <br>
+
+              </form>
+
+                <button id="donebutton" class="btn btn-primary done">Done</button>
+          </section>
+
+            <div id="result" class="result">
+              <p class="correct"></p>
+              <p class="incorrect"></p>
+              <p class="empty"></p>
+            </div>
+
+        </div>
+
+          <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+  </body>
+
+</html>
